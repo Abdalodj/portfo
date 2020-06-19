@@ -1,1 +1,3 @@
 Ceci est un ficier txt de qualité
+		Col-16
+		Col-8
