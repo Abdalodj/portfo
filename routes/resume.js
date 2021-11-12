@@ -11,7 +11,7 @@ router.get('/fr', (req, res) => {
     res.sendFile(path.join(__dirname, '../views/index_fr.html'));
 });
 
-router.get('*', (req, res) => {
+router.get('*', (req, res) => { 
     res.sendFile(path.join(__dirname, '../views/index_en.html'));
 });
 

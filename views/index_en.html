@@ -4,6 +4,9 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Portfolio</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="manifest" href="/img/manifest.json">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
@@ -25,9 +28,20 @@
         <div class="row">
             <div class="col-12 col-lg-8">
                 <div class="card mb-4">
-                    <h2 class="card-header text-center text-danger">Abdallah LODIANE</h2>
+                    <h2 class="card-header text-center text-danger">Abdallah LODIANE
+                        <div class="dropdown float-right">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                EN
+                            </button>
+                            <p id="custom-dropdown" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a id="switch-lang" class="dropdown-item" href="#">FR</a>
+                            </p>
+                        </div>
+                    </h2>
                     <img src="/img/20191124182931791.jpg" alt="Portrait of Abdallah Lodiane"
-                        class="w-50 mx-auto d-block img-fluid rounded-circle">
+                        class="w-50 mx-auto d-block img-fluid rounded-circle" />
+                    
                     <div class="card-body">
                         <!--
                         <p class="card-text lead">Lorem ipsum dolor sit amet, eam autem augue liberavisse ex, eu audire utroque voluptatibus eam, his congue lobortis quaestio id.</p>
@@ -38,23 +52,27 @@
                             <footer class="blockquote-footer text-danger"><strong>SOFTWARE INGINEER</strong>
                             </footer>
                         </blockquote>
-                        <h2 class="card-text text-center text-black-50">Ambitious, Instinctive and Open-minded</h2>
+                        <h4 class="card-text text-center text-black-50">
+                            Serve the company well and acquire new experiences. <br>
+                            Accomplish with dedication the mission that will be entrusted to me. <br>
+                            Highlight my qualities and my skills in the service of the best growth of the company
+                        </h4>
                     </div>
                 </div>
                 <div class="card mb-4">
-                    <h2 class="card-header text-center">Experience Professionelle</h2>
+                    <h2 class="card-header text-center">Professional Experiences</h2>
                     <div class="card-body">
                         <div class="media mb-2">
                             <i class="fas fa-network-wired fa-fw fa-3x text-danger mr-2"></i>
                             <div class="media-body">
-                                <h3 class="h4 mb-1">Developpeur Full Stack</h3>
+                                <h3 class="h4 mb-1">Full Stack Developper</h3>
                                 <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
                                     <h5 class="mb-0 text-center">
                                         <a href="#0" class="text-danger">TECKLABS, Montréal &ndash; Canada</a>
                                     </h5>
                                     <small class="d-block text-uppercase font-weight-bold text-muted">
-                                        <time datetime="27-07-2019">Fevrier 2021</time> &ndash;
-                                        <time datetime="23-10-2019"> Present</time>
+                                        <time datetime="27-07-2019">February 2021</time> &ndash;
+                                        <time datetime="23-10-2019"> Now</time>
                                     </small>
                                 </div>
                             </div>
@@ -62,28 +80,31 @@
                         <p>
                             <ul>
                                 <li class="card-text">
-                                    <strong>Back-End</strong> : Entretien & Mise à jour des services backend avec 
-                                    <strong class="text-primary font-weight-bolder">NodeJs ExpressJs</strong>
-                                     et 
-                                     <strong class="text-primary font-weight-bolder">MongoDB</strong>
+                                    <strong>Back-End</strong> : Maintenance & update of backend services using
+                                    <strong class="text-primary font-weight-bolder">NodeJs Express</strong>
+                                    and
+                                    <strong class="text-primary font-weight-bolder">MongoDB</strong>
                                 </li>
                                 <li class="card-text">
-                                    <strong>Front-End</strong> : Entretien & Mise à jour du site <a href="http://sandagamontreal.com/annonces" target="_blank">Sandaga Montréal</a> avec 
+                                    <strong>Front-End</strong> : Maintenance and update of <a
+                                        href="http://sandagamontreal.com/annonces" target="_blank">Sandaga
+                                        Montreal</a>'s website using
                                     <strong class="text-primary font-weight-bolder">Angular</strong>
-                                     et 
-                                     <strong class="text-primary font-weight-bolder">Bootstrap</strong>
+                                    and
+                                    <strong class="text-primary font-weight-bolder">Bootstrap</strong>
                                 </li>
                                 <li class="card-text">
-                                    <strong>Tests</strong> : Écrire des tests pour les différentes fonctionnalités
+                                    <strong>Tests</strong> : Write tests for the different features
                                 </li>
                                 <li class="card-text">
-                                    <strong>Travaux secondaires</strong> : Facebook API, CronJob, MongoDB, …
+                                    <strong>Additional work</strong> : Facebook API, CronJob, MongoDB, …
                                 </li>
                                 <li class="card-text">
-                                    <strong>Application Mobile</strong> : Création d'application mobile pour une Gestion de boutiques avec 
+                                    <strong>Mobile App</strong> : Developping a solution for several stores management
+                                    using
                                     <strong class="text-primary font-weight-bolder">Flutter NodeJs ExpressJs</strong>
-                                     et 
-                                     <strong class="text-primary font-weight-bolder">MongoDB</strong>
+                                    and
+                                    <strong class="text-primary font-weight-bolder">MongoDB</strong>
                                 </li>
                             </ul>
                         </p>
@@ -91,13 +112,13 @@
                         <div class="media mb-2">
                             <i class="fas fa-laptop-code fa-fw fa-3x text-danger mr-2"></i>
                             <div class="media-body">
-                                <h3 class="h4 mb-1">Webmaster Bénévole</h3>
+                                <h3 class="h4 mb-1">Webmaster, Volunteer</h3>
                                 <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
                                     <h5 class="mb-0 text-center">
                                         <a href="#0" class="text-danger">SENEDIASPORA, Dakar - Sénégal</a>
                                     </h5>
                                     <small class="d-block text-uppercase font-weight-bold text-muted">
-                                        <time datetime="27-07-2019">Septembre 2020</time> &ndash;
+                                        <time datetime="27-07-2019">September 2020</time> &ndash;
                                         <time datetime="23-10-2019">Présent</time>
                                     </small>
                                 </div>
@@ -106,19 +127,20 @@
                         <p>
                             <ul>
                                 <li class="card-text">
-                                    <strong>Wordpress</strong> : Maintenance & Mise à jour du site <a href="https://senediaspora.net/" target="_blank">Senediaspora</a>
+                                    <strong>Wordpress</strong> : Maintenance & Updates of <a
+                                        href="https://senediaspora.net/" target="_blank">Senediaspora</a>'s website
                                 </li>
                                 <li class="card-text">
-                                    <strong>Page</strong> : Création & Modification
+                                    <strong>Page</strong> : Create & Edit
                                 </li>
                                 <li class="card-text">
-                                    <strong>Theme</strong> : Installation & Mise à Jour
+                                    <strong>Theme</strong> : Installation & Upgrading
                                 </li>
                                 <li class="card-text">
-                                    Configuration de base du référencement
+                                    Basic SEO configuration
                                 </li>
                                 <li class="card-text">
-                                    Surveillance et rapports sur la sécurité du site
+                                    Broken Link Monitoring, Reporting & Security checking
                                 </li>
                             </ul>
                         </p>
@@ -126,13 +148,13 @@
                         <div class="media mb-2">
                             <i class="fas fa-laptop-code fa-fw fa-3x text-danger mr-2"></i>
                             <div class="media-body">
-                                <h3 class="h4 mb-1">Formateur en informatique et programmation, Bénévole</h3>
+                                <h3 class="h4 mb-1">Computer Science and Programming Trainer, Volunteer</h3>
                                 <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
                                     <h5 class="mb-0 text-center">
                                         <a href="#0" class="text-danger">LYCÉE DE MBAO, Mbao, Dakar - Sénégal</a>
                                     </h5>
                                     <small class="d-block text-uppercase font-weight-bold text-muted">
-                                        <time datetime="27-07-2019">Janvier 2021</time> &ndash;
+                                        <time datetime="27-07-2019">January 2021</time> &ndash;
                                         <time datetime="23-10-2019">Présent</time>
                                     </small>
                                 </div>
@@ -140,26 +162,28 @@
                         </div>
                         <p>
                             <ul>
-                                <li class="card-text">Introduction des élèves aux vaste monde des <span class="text-primary font-weight-bolder">technologies informatiques</span> et à la <span class="text-primary font-weight-bolder">programmation</span>
-                                    avec <span class="text-primary font-weight-bolder">Python</span></li>
+                                <li class="card-text">Introduce students to the vast world of <span
+                                        class="text-primary font-weight-bolder">computing technologies</span> and <span
+                                        class="text-primary font-weight-bolder">programming</span>
+                                    using <span class="text-primary font-weight-bolder">Python</span>.</li>
                             </ul>
                         </p>
                     </div>
                 </div>
                 <div class="card mb-4">
-                    <h2 class="card-header text-center">Experience Académique</h2>
+                    <h2 class="card-header text-center">Academic experiences</h2>
                     <div class="card-body">
                         <div class="media mb-2">
                             <i class="fas fa-network-wired fa-fw fa-3x text-danger mr-2"></i>
                             <div class="media-body">
-                                <h3 class="h4 mb-1">Projets de Mémoire Licence</h3>
+                                <h3 class="h4 mb-1">Bachelor Final Year Project Dissertation</h3>
                                 <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
                                     <h5 class="mb-0 text-center">
                                         <a href="#0" class="text-danger">UCAD - TDSI</a>
                                     </h5>
                                     <small class="d-block text-uppercase font-weight-bold text-muted">
-                                        <time datetime="27-07-2019">Octobre 2020</time> &ndash;
-                                        <time datetime="23-10-2019">January 2021/time>
+                                        <time datetime="27-07-2019">October 2020</time> &ndash;
+                                        <time datetime="23-10-2019">January 2021</time>
                                     </small>
                                 </div>
                             </div>
@@ -167,60 +191,95 @@
                         <p>
                             <ul>
                                 <li class="card-text h5">
-                                    <strong class="text-primary">Software Defined Network</strong>
-                                     et 
-                                     <strong class="text-primary">OpenFlow</strong>
+                                    <strong class="text-primary text-underlined">
+                                        <a href="https://en.wikipedia.org/wiki/Software-defined_networking"
+                                            target="_blank">Software-defined networking</a>
+                                    </strong>
+                                    and the
+                                    <strong class="text-primary text-underlined">
+                                        <a href="https://en.wikipedia.org/wiki/OpenFlow" target="_blank">Openflow</a>
+                                    </strong>
+                                    architecture
                                 </li>
                             </ul>
                         </p>
                         <div class="media mb-2">
                             <i class="fas fa-laptop-code fa-fw fa-3x text-danger mr-2"></i>
                             <div class="media-body">
-                                <h3 class="h4 mb-1">Projets de développement Licence</h3>
+                                <h3 class="h4 mb-1">Bachelor Projects</h3>
                                 <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
                                     <h5 class="mb-0 text-center">
                                         <a href="#0" class="text-danger">UCAD - TDSI</a>
                                     </h5>
                                     <small class="d-block text-uppercase font-weight-bold text-muted">
                                         <time datetime="27-07-2019">December 2020</time> &ndash;
-                                        <time datetime="23-10-2019">January 2021/time>
+                                        <time datetime="23-10-2019">January 2021</time>
                                     </small>
                                 </div>
                             </div>
                         </div>
                         <p>
                             <ul>
-                                <li class="card-text">Développement d'application web en PHP avec <span
-                                        class="text-primary font-weight-bolder">Symfonfy</span>, <span class="text-primary font-weight-bolder">JavaScript</span> et <span class="text-primary font-weight-bolder">MySQL</span>
-                                        &nbsp;<a href="https://github.com/Dev-Killer/gestion_stock">(Github)</a>
-                                    </li>
-                                <li class="card-text">Développement d'application web en JAVA avec 
-                                    <span class="text-primary font-weight-bolder">JAVA EE</span> 
+                                <li class="card-text">Web application for inventory management using <span
+                                        class="text-primary font-weight-bolder">Symfonfy</span>, <span
+                                        class="text-primary font-weight-bolder">JavaScript</span> and <span
+                                        class="text-primary font-weight-bolder">MySQL</span>
+                                    &nbsp;<a href="https://github.com/Dev-Killer/gestion_stock">(Github)</a>
+                                </li>
+                                <li class="card-text">Web application development in JAVA using
+                                    <span class="text-primary font-weight-bolder">JAVA EE</span>
                                     <span class="text-primary font-weight-bolder">JavaScript</span>
-                                     et 
-                                     <span class="text-primary font-weight-bolder">MySQL</span>
+                                    and
+                                    <span class="text-primary font-weight-bolder">MySQL</span>
                                     &nbsp;<a href="https://github.com/Dev-Killer/ColobaneOnline">(Github)</a>
+                                </li>
+                                <li class="card-text">Implementation of the
+                                    <span class="text-primary">
+                                        <a href="https://en.wikipedia.org/wiki/Data_Encryption_Standard"
+                                            target="_blank">Data Encryption Standard (DES)</a>
+                                    </span>
+                                    and
+                                    <span class="text-primary">
+                                        <a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard"
+                                            target="_blank">Advanced Encryption Standard (AES)</a>
+                                    </span>
+                                    according to the encryption modes using
+                                    <span class="text-primary font-weight-bolder">Python</span>
+                                    &nbsp;<a
+                                        href="https://github.com/Abdalodj/academic-work/tree/main/pythonist/Cryptography">(Github)</a>
+                                </li>
+                                <li class="card-text">Implementation of famous
+                                    <span class="text-primary">
+                                        <a href="https://en.wikipedia.org/wiki/Classical_cipher"
+                                            target="_blank">Classical cipher Algorithms</a>
+                                    </span>
+                                    (Hill, Vigenere, Substitution, ...) using
+                                    <span class="text-primary font-weight-bolder">Python</span>
+                                    &nbsp;<a
+                                        href="https://github.com/Abdalodj/academic-work/tree/main/pythonist/Cryptography">(Github)</a>
                                 </li>
                             </ul>
                         </p>
                         <div class="media mb-2">
                             <i class="fas fa-laptop-code fa-fw fa-3x text-danger mr-2"></i>
                             <div class="media-body">
-                                <h3 class="h4 mb-1">Projet de fin d’année Universitaire 2</h3>
+                                <h3 class="h4 mb-1">University end of year 2 project</h3>
                                 <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
                                     <h5 class="mb-0 text-center">
                                         <a href="#0" class="text-danger">UCAD - TDSI</a>
                                     </h5>
                                     <small class="d-block text-uppercase font-weight-bold text-muted">
-                                        <time datetime="27-07-2019">Juillet 2019</time> &ndash;
-                                        <time datetime="23-10-2019">Octobre 2019</time>
+                                        <time datetime="27-07-2019">July 2019</time> &ndash;
+                                        <time datetime="23-10-2019">October 2019</time>
                                     </small>
                                 </div>
                             </div>
                         </div>
                         <p>
                             <ul>
-                                <li class="card-text">Développement de logiciel de gestion scolaire en <span class="text-primary font-weight-bolder">JAVA</span> et <span class="text-primary font-weight-bolder">MySQL</span></li>
+                                <li class="card-text">Developing school management software using <span
+                                        class="text-primary font-weight-bolder">JAVA</span> and <span
+                                        class="text-primary font-weight-bolder">MySQL</span></li>
                             </ul>
                         </p>
                         <hr />
@@ -228,31 +287,48 @@
                             <div class="media mb-2">
                                 <i class="fas fa-server fa-fw fa-3x text-danger mr-2"></i>
                                 <div class="media-body">
-                                    <h3 class="h4 mb-1">Exposés</h3>
+                                    <h3 class="h4 mb-1">Presentation</h3>
                                     <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
                                         <h5 class="mb-0 text-center">
                                             <a href="#0" class="text-danger">UCAD - TDSI</a>
                                         </h5>
                                         <small class="d-block text-uppercase font-weight-bold text-muted">
-                                            <time datetime="12-06-2018">Juin 2019</time>
+                                            <time datetime="12-06-2018">June 2019</time>
                                         </small>
                                     </div>
                                 </div>
                             </div>
                             <p>
                                 <ul>
-                                    <li class="card-text">Mise en place d’un <strong class="text-primary">réseau de PME</strong> avec simulation sur <strong class="text-primary">GNS3</strong></li>
-                                    <li class="card-text font-weight-bolder">Orchestration avec <span class="text-primary">Ansible</span> et <span class="text-primary">Vagrant</span></li>
+                                    <li class="card-text">
+                                        Setting up an
+                                        <strong class="text-primary">enterprise network</strong>
+                                        using
+                                        <span class="text-primary text-underlined">
+                                            <a href="https://www.gns3.com/" target="_blank">GNS3</a>
+                                        </span>
+                                        for simulation
+                                    </li>
+                                    <li class="card-text">
+                                        Orchestration & automation using
+                                        <span class="text-primary text-underlined">
+                                            <a href="https://www.ansible.com/" target="_blank">Ansible</a>
+                                        </span>
+                                        and
+                                        <span class="text-primary text-underlined">
+                                            <a href="https://www.vagrantup.com/" target="_blank">Vagrant</a>
+                                        </span>
+                                    </li>
                                 </ul>
                             </p>
                             <hr />
                             <div class="media mb-2">
                                 <i class="fas fa-terminal fa-fw fa-3x text-danger mr-2"></i>
                                 <div class="media-body">
-                                    <h3 class="h4 mb-1">Présentation</h3>
+                                    <h3 class="h4 mb-1">Presentation</h3>
                                     <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
                                         <h5 class="mb-0 text-center">
-                                            <a href="#0" class="text-danger">Journée Linux Sénégal</a>
+                                            <a href="#0" class="text-danger">Senegal Linux day</a>
                                         </h5>
                                         <small class="d-block text-uppercase font-weight-bold text-muted">
                                             <time datetime="30-03-2019">Mars 2019</time>
@@ -262,21 +338,22 @@
                             </div>
                             <p>
                                 <ul>
-                                    <li class="card-text">Connexion à distance avec <strong class="text-primary">SSH</strong></li>
+                                    <li class="card-text">Remote access using <strong class="text-primary">SSH</strong>
+                                    </li>
                                 </ul>
                             </p>
                             <hr />
                             <div class="media mb-2">
                                 <i class="fas fa-laptop-code fa-fw fa-3x text-danger mr-2"></i>
                                 <div class="media-body">
-                                    <h3 class="h4 mb-1">Projet de fin d’année Universitaire 1</h3>
+                                    <h3 class="h4 mb-1">University end of year 1 projects</h3>
                                     <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
                                         <h5 class="mb-0 text-center">
                                             <a href="#0" class="text-danger">UCAD - TDSI</a>
                                         </h5>
                                         <small class="d-block text-uppercase font-weight-bold text-muted">
-                                            <time datetime="12-06-2018">Juin 2018</time> &ndash;
-                                            <time datetime="17-10-2018">Octobre 2018</time>
+                                            <time datetime="12-06-2018">June 2018</time> &ndash;
+                                            <time datetime="17-10-2018">October 2018</time>
                                         </small>
                                     </div>
                                 </div>
@@ -284,32 +361,32 @@
                             <p>
                                 <ul>
                                     <li class="card-text">
-                                        Développement de logiciel de gestion de comptes bancaire en 
+                                        Development of bank account management software using
                                         <span class="text-primary font-weight-bolder">JAVA</span>
-                                         et 
-                                         <span class="text-primary font-weight-bolder">MySQL</span>
+                                        and
+                                        <span class="text-primary font-weight-bolder">MySQL</span>
                                     </li>
-                                    <li class="card-text">Développement de site web vitrine e-commerce 
+                                    <li class="card-text">Development of e-commerce showcase website
                                         (<strong class="text-primary font-weight-bolder">HTML / CSS</strong>)</li>
                                 </ul>
                             </p>
                             <hr />
                         </div>
                         <button class="btn btn-sm btn-outline-danger" type="button" data-toggle="collapse"
-                            data-target="#collapseExp" aria-expanded="false" aria-controls="collapseExp">Afficher
-                            tous</button>
+                            data-target="#collapseExp" aria-expanded="false" aria-controls="collapseExp">More</button>
                     </div>
                 </div>
                 <div class="card mb-4">
-                    <h2 class="card-header text-center">Etudes</h2>
+                    <h2 class="card-header text-center">Education</h2>
                     <div class="card-body">
                         <div class="media mb-2">
                             <i class="fas fa-university fa-fw fa-3x text-danger mr-2"></i>
                             <div class="media-body">
-                                <h3 class="h4 mb-1">Machine Learning Certification  (Cours Andrew Ng)</h3>
+                                <h3 class="h4 mb-1">Machine Learning Certification (Andrew Ng Course)</h3>
                                 <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
                                     <h5 class="mb-0 text-center">
-                                        <a href="#0" class="text-danger">COURSERA - STANFORD UNIVERSITY</a>
+                                        <a href="https://www.coursera.org/learn/machine-learning/home/welcome"
+                                            class="text-danger">COURSERA - STANFORD UNIVERSITY</a>
                                     </h5>
                                     <small class="d-block text-uppercase font-weight-bold text-muted">
                                         <time datetime="12-06-2018">
@@ -321,22 +398,33 @@
                         </div>
                         <p>
                             <ul>
-                                <li class="card-text">Outil de calcul <strong class="text-primary">Octave / MatLab</strong></li>
-                                <li class="card-text">Régression Linéaire (avec une et plusieurs variable) et Logistque (Régularisé et Non Régularisé)</li>
-                                <li class="card-text">Réseaux de neurone</li>
-                                <li class="card-text">Support Vector Machine (Machine à vecteur de support)</li>
-                                <li class="card-text">Apprentissage non supervisé</li>
-                                <li class="card-text">Réduction de dimension (dimensionality reduction)</li>
-                                <li class="card-text">Analyse des composants principaux (principal component analysis)</li>
-                                <li class="card-text">Détecion d'anomalie (anomaly Detection)</li>
-                                <li class="card-text">Systémes de recommandation (Recommender Systems)</li>
+                                <li class="card-text">Programming tool: <strong class="text-primary">Octave /
+                                        MatLab</strong></li>
+                                <li class="card-text">Supervised Learning</li>
+                                <ul>
+                                    <li class="card-text">Linear regression (univariate and multivariate) and Logistic
+                                    </li>
+                                    <li class="card-text">Logistic regression</li>
+                                    <li class="card-text">Classification and Representation</li>
+                                    <li class="card-text">Neural Networks</li>
+                                    <li class="card-text">Support Vector Machine</li>
+                                </ul>
+                                <li class="card-text">Unsupervised Learning</li>
+                                <ul>
+                                    <li class="card-text">Clustering</li>
+                                    <li class="card-text">Dimensionality Reduction</li>
+                                    <li class="card-text">Principal Component Analysis</li>
+                                </ul>
+                                <li class="card-text">Anomaly Detection</li>
+                                <li class="card-text">Recommender Systems</li>
                             </ul>
                         </p>
                         <hr />
                         <div class="media mb-2">
                             <i class="fas fa-university fa-fw fa-3x text-danger mr-2"></i>
                             <div class="media-body">
-                                <h3 class="h4 mb-1">Licence</h3>
+                                <h3 class="h4 mb-1">Bachelor at Cheikh Anta Diop University (UCAD) <br>At the Data
+                                    transmission and information security (TDSI) pathway</h3>
                                 <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
                                     <h5 class="mb-0 text-center">
                                         <a href="#0" class="text-danger">UCAD - TDSI</a>
@@ -351,29 +439,31 @@
                         </div>
                         <p>
                             <ul>
-                                <li class="card-text">Mathématique</li>
-                                <li class="card-text">Cryptographie</li>
-                                <li class="card-text">Sécurité de l'information</li>
+                                <li class="card-text">Mathematics</li>
+                                <li class="card-text">Cryptography</li>
+                                <li class="card-text">Information Security</li>
                             </ul>
                         </p>
                         <hr />
                         <div class="media mb-2">
                             <i class="fas fa-graduation-cap fa-fw fa-3x text-danger mr-2"></i>
                             <div class="media-body">
-                                <h3 class="h4 mb-1">Baccalauréat</h3>
+                                <h3 class="h4 mb-1">High School</h3>
                                 <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
                                     <h5 class="mb-0 text-center">
-                                        <a href="#0" class="text-danger">Lycée de Mbao</a>
+                                        <a href="#0" class="text-danger">Mbao High School</a>
                                     </h5>
                                     <small class="d-block text-uppercase font-weight-bold text-muted">
-                                        <time datetime="30-03-2019">Juillet 2017</time>
+                                        <time datetime="12-06-2018">
+                                            2014</time> &ndash;
+                                        <time datetime="17-10-2018">2017</time>
                                     </small>
                                 </div>
                             </div>
                         </div>
                         <p>
                             <ul>
-                                <li class="card-text">Baccalauréat S2 (Science Expérimentale)</li>
+                                <li class="card-text"> High School Diploma in : Experimental Science pathway</li>
                             </ul>
                         </p>
                         <hr />
@@ -381,75 +471,32 @@
                             <div class="media mb-2">
                                 <i class="fas fa-school fa-fw fa-3x text-danger mr-2"></i>
                                 <div class="media-body">
-                                    <h3 class="h4 mb-1">Etude secondaire</h3>
+                                    <h3 class="h4 mb-1">Junior School</h3>
                                     <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
                                         <h5 class="mb-0 text-center">
-                                            <a href="#0" class="text-danger">Lycée de Mbao</a>
+                                            <a href="#0" class="text-danger">Jupiter School</a>
                                         </h5>
                                         <small class="d-block text-uppercase font-weight-bold text-muted">
-                                            <time datetime="12-06-2018">
-                                                2014</time> &ndash;
-                                            <time datetime="17-10-2018">2017</time>
+                                            <time datetime="12-06-2018">July 2014</time>
                                         </small>
                                     </div>
                                 </div>
                             </div>
                             <p>
                                 <ul>
-                                    <li class="card-text">Série S2 (Science Expérimentale)</li>
-                                </ul>
-                            </p>
-                            <hr />
-                            <div class="media mb-2">
-                                <i class="fas fa-school fa-fw fa-3x text-danger mr-2"></i>
-                                <div class="media-body">
-                                    <h3 class="h4 mb-1">BFEM</h3>
-                                    <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
-                                        <h5 class="mb-0 text-center">
-                                            <a href="#0" class="text-danger"> Groupe Scolaire Jupiter</a>
-                                        </h5>
-                                        <small class="d-block text-uppercase font-weight-bold text-muted">
-                                            <time datetime="12-06-2018">Juillet 2014</time>
-                                        </small>
-                                    </div>
-                                </div>
-                            </div>
-                            <p>
-                                <ul>
-                                    <li class="card-text">Brevet de Fin d’Étude Moyen</li>
-                                </ul>
-                            </p>
-                            <hr />
-                            <div class="media mb-2">
-                                <i class="fas fa-school fa-fw fa-3x text-danger mr-2"></i>
-                                <div class="media-body">
-                                    <h3 class="h4 mb-1">CFEE</h3>
-                                    <div class="d-sm-flex justify-content-sm-between align-items-sm-baseline">
-                                        <h5 class="mb-0 text-center">
-                                            <a href="#0" class="text-danger">École Élémentaire Mour Seck</a>
-                                        </h5>
-                                        <small class="d-block text-uppercase font-weight-bold text-muted">
-                                            <time datetime="23-10-2019">Août 2019</time>
-                                        </small>
-                                    </div>
-                                </div>
-                            </div>
-                            <p>
-                                <ul>
-                                    <li class="card-text">Certificat de Fin d’Étude Élémentaire</li>
+                                    <li class="card-text">Junior School Diploma</li>
                                 </ul>
                             </p>
                             <hr />
                         </div>
                         <button class="btn btn-sm btn-outline-danger" type="button" data-toggle="collapse"
-                            data-target="#collapseEtu" aria-expanded="false" aria-controls="collapseEtu">Afficher
-                            tous</button>
+                            data-target="#collapseEtu" aria-expanded="false" aria-controls="collapseEtu">More</button>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-lg-4">
                 <div class="card mb-4">
-                    <h2 class="card-header text-center">Info Contact</h2>
+                    <h2 class="card-header text-center">Contact Info</h2>
                     <div class="card-body">
                         <div class="media">
                             <div class="fa-layers fa-fw fa-2x mr-3">
@@ -467,7 +514,7 @@
                                 <i class="fas fa-calendar-alt text-white" data-fa-transform="shrink-8"></i>
                             </div>
                             <div class="media-body">
-                                <time datetime="1998-01-02">02 Janvier 1998</time>
+                                <time datetime="1998-01-02">02 January 1998</time>
                                 <hr>
                             </div>
                         </div>
@@ -478,8 +525,8 @@
                             </div>
                             <ul class="media-body list-unstyled">
                                 <li><a href="tel:+221776986780" class="text-danger">(+221)-77-698-67-80</a></li>
-                                <li><i class="fab fa-fw fa-whatsapp text-muted"></i><a href="#0"
-                                        class="text-danger">WhatsApp</a></li>
+                                <li><i class="fab fa-fw fa-whatsapp text-muted"></i><a href="https://wa.me/221776986780"
+                                        class="text-danger">&nbsp;&nbsp;WhatsApp</a></li>
                                 <li>
                                     <hr>
                                 </li>
@@ -493,8 +540,16 @@
                             <ul class="media-body list-unstyled">
                                 <li><a href="mailto:lodianea98@gmail.com" class="text-danger">lodianea98@gmail.com</a>
                                 </li>
-                                <li><i class="fab fa-fw fa-linkedin text-muted"></i><a href="#0"
-                                        class="text-danger">LinkedIn</a></li>
+                                <li>
+                                    <i class="fab fa-fw fa-linkedin text-muted"></i><a
+                                        href="https://www.linkedin.com/in/abdallah-lodiane-685612194/"
+                                        class="text-danger">&nbsp;&nbsp;LinkedIn</a>
+                                </li>
+                                <li>
+                                    <i class="fab fa-fw fa-github text-muted"></i><a href="https://github.com/Abdalodj"
+                                        class="text-danger">&nbsp;&nbsp;Github</a>
+                                </li>
+                                </li>
                                 <li>
                                     <hr>
                                 </li>
@@ -507,7 +562,7 @@
                             </div>
                             <div class="media-body">
                                 <address class="mb-8">
-                                    Mbao, Ab Gokh Villa n°53<br>
+                                    Mbao, Ab Gokh street<br>
                                     Dakar – Pikine<br>
                                     Sénégal
                                 </address>
@@ -519,39 +574,41 @@
                                 <i class="fas fa-at text-white" data-fa-transform="shrink-8"></i>
                             </div>
                             <div class="media-body">
-                                <div class="input-group mb-3">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="Nom">Nom</span>
+                                <form action="https://formspree.io/f/mzbyndvq" method="POST">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="full-name">Name</span>
+                                        </div>
+                                        <input type="text" name="name" id="full-name" class="form-control"
+                                            placeholder="Name" aria-label="Name" aria-describedby="Name" required>
                                     </div>
-                                    <input type="text" class="form-control" placeholder="Nom" aria-label="Nom"
-                                        aria-describedby="Nom">
-                                </div>
-                                <div class="input-group mb-3">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="Email">Email</span>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="email-address">Email</span>
+                                        </div>
+                                        <input type="text" name="_replyto" id="email-address" class="form-control"
+                                            placeholder="Email" aria-label="Email" aria-describedby="Email" required>
                                     </div>
-                                    <input type="text" class="form-control" placeholder="Email" aria-label="Email"
-                                        aria-describedby="Email">
-                                </div>
-                                <div class="input-group mb-3">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="message"><i
-                                                class="fas fa-pencil-alt"></i></span>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="message"><i
+                                                    class="fas fa-pencil-alt"></i></span>
+                                        </div>
+                                        <textarea name="message" id="message" class="form-control"
+                                            placeholder="Your message" aria-label="Your message"
+                                            aria-describedby="message" rows="3" required></textarea>
                                     </div>
-                                    <textarea name="message" class="form-control" placeholder="Votre message"
-                                        aria-label="Votre message" aria-describedby="message" rows="3"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-sm btn-danger">Envoyer</button>
+                                    <button type="submit" class="btn btn-sm btn-danger">Send</button>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="card mb-4">
-                    <h2 class="card-header text-center">Compétences</h2>
+                    <h2 class="card-header text-center">SKILLS</h2>
                     <div class="card-body">
                         <div class="mb-3">
-                            <h4 class="h6 text-muted"><span><i class="fas fa-fw fa-language 2x"></i> </span> Français
+                            <h4 class="h6 text-muted"><span><i class="fas fa-fw fa-language 2x"></i> </span> French
                             </h4>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-secondary progress-bar-striped"
@@ -559,14 +616,14 @@
                             </div>
                         </div>
                         <div class="mb-3">
-                            <h4 class="h6 text-muted"><span><i class="fas fa-fw fa-language 2x"></i> </span> Anglais
+                            <h4 class="h6 text-muted"><span><i class="fas fa-fw fa-language 2x"></i> </span> English
                             </h4>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated"
                                     role="progressbar" style="width: 70%">70 %</div>
                             </div>
                         </div>
-                        <h4 class="h6 text-muted"><span><i class="fas fa-fw fa-code 2x"></i> </span> Algorithme
+                        <h4 class="h6 text-muted"><span><i class="fas fa-fw fa-code 2x"></i> </span> Algorithm
                         </h4>
                         <div class="progress mb-3">
                             <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated"
@@ -574,13 +631,15 @@
                         </div>
                         <hr>
                         <div class="mb-3">
-                            <h3 class="h4 mb-3">Framwork</h3>
-                            <h4 class="h6 text-muted"><span><i class="fab fa-fw fa-angular 2x"></i> </span> Angular - JavaScript </h4>
+                            <h3 class="h4 mb-3">Framworks</h3>
+                            <h4 class="h6 text-muted"><span><i class="fab fa-fw fa-angular 2x"></i> </span> Angular -
+                                JavaScript </h4>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated"
                                     role="progressbar" style="width: 80%">80 %</div>
                             </div>
-                            <h4 class="h6 text-muted"><span><i class="fab fa-fw fa-react 2x"></i> </span>ReatcJS - JavaScript</h4>
+                            <h4 class="h6 text-muted"><span><i class="fab fa-fw fa-react 2x"></i> </span>ReatcJS -
+                                JavaScript</h4>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated"
                                     role="progressbar" style="width: 65%">65 %</div>
@@ -590,38 +649,47 @@
                                 <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated"
                                     role="progressbar" style="width: 40%">40 %</div>
                             </div>
-                            <h4 class="h6 text-muted"><span><span class="iconify-inline" data-icon="cib:flutter"></span>&nbsp; </span> Flutter - Dart </h4>
+                            <h4 class="h6 text-muted"><span><span class="iconify-inline"
+                                        data-icon="cib:flutter"></span>&nbsp; </span> Flutter - Dart </h4>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated"
                                     role="progressbar" style="width: 75%">75 %</div>
                             </div>
-                            <h4 class="h6 text-muted"><span><i class="fab fa-fw fa-bootstrap 2x"></i> </span> Bootstrap - CSS
+                            <h4 class="h6 text-muted"><span><i class="fab fa-fw fa-bootstrap 2x"></i> </span> Bootstrap
+                                - CSS
                             </h4>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated"
                                     role="progressbar" style="width: 85%">85 %</div>
                             </div>
-                            <h4 class="h6 text-muted"><span><span class="iconify-inline" data-icon="simple-icons:express"></span>&nbsp; </span> ExpressJS - JavaScript </h4>
+                            <h4 class="h6 text-muted"><span><span class="iconify-inline"
+                                        data-icon="simple-icons:express"></span>&nbsp; </span> ExpressJS - JavaScript
+                            </h4>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated"
                                     role="progressbar" style="width: 90%">90 %</div>
                             </div>
-                            <h4 class="h6 text-muted"><span><span class="iconify-inline" data-icon="simple-icons:fastify"></span>&nbsp; </span> FastifyJS - JavaScript </h4>
+                            <h4 class="h6 text-muted"><span><span class="iconify-inline"
+                                        data-icon="simple-icons:fastify"></span>&nbsp; </span> FastifyJS - JavaScript
+                            </h4>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated"
                                     role="progressbar" style="width: 70%">70 %</div>
                             </div>
-                            <h4 class="h6 text-muted"><span><span class="iconify-inline" data-icon="file-icons:flask"></span>&nbsp; </span>Flask - Python</h4>
+                            <h4 class="h6 text-muted"><span><span class="iconify-inline"
+                                        data-icon="file-icons:flask"></span>&nbsp; </span>Flask - Python</h4>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated"
                                     role="progressbar" style="width: 50%">50 %</div>
                             </div>
-                            <h4 class="h6 text-muted"><span><span class="iconify-inline" data-icon="simple-icons:django"></span>&nbsp; </span>Django - Pyhton</h4>
+                            <h4 class="h6 text-muted"><span><span class="iconify-inline"
+                                        data-icon="simple-icons:django"></span>&nbsp; </span>Django - Pyhton</h4>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated"
                                     role="progressbar" style="width: 50%">50 %</div>
                             </div>
-                            <h4 class="h6 text-muted"><span><i class="fab fa-fw fa-java 2x"></i> </span> JAVA EE - JAVA</h4>
+                            <h4 class="h6 text-muted"><span><i class="fab fa-fw fa-java 2x"></i> </span> JAVA EE - JAVA
+                            </h4>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated"
                                     role="progressbar" style="width: 40%">40 %</div>
@@ -634,7 +702,7 @@
                             <hr>
                         </div>
                         <div class="mb-3">
-                            <h3 class="h4 mb-3">Programmation</h3>
+                            <h3 class="h4 mb-3">Programming</h3>
                             <h4 class="h6 text-muted"><span><i class="fab fa-fw fa-js-square 2x"></i> </span> JavaScript
                             </h4>
                             <div class="progress mb-3">
@@ -663,12 +731,14 @@
                                 <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated"
                                     role="progressbar" style="width: 30%">30 %</div>
                             </div>
-                            <h4 class="h6 text-muted"><span><span class="iconify-inline" data-icon="teenyicons:c-sharp-solid"></span>&nbsp; </span> C#</h4>
+                            <h4 class="h6 text-muted"><span><span class="iconify-inline"
+                                        data-icon="teenyicons:c-sharp-solid"></span>&nbsp; </span> C#</h4>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated"
                                     role="progressbar" style="width: 30%">30 %</div>
                             </div>
-                            <h4 class="h6 text-muted"><span><i class="fas fa-fw fa-terminal 2x"></i> </span> Bash Scripting</h4>
+                            <h4 class="h6 text-muted"><span><i class="fas fa-fw fa-terminal 2x"></i> </span> Bash
+                                Scripting</h4>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated"
                                     role="progressbar" style="width: 20%">20 %</div>
@@ -686,22 +756,30 @@
                             <hr>
                         </div>
                         <div class="mb-3">
-                            <h3 class="h4 mb-3">Réseau</h3>
-                            <h4 class="h6 text-muted"><span><i class="fas fa-fw fa-network-wired 2x"></i> </span> Configuration appliance</h4>
+                            <h3 class="h4 mb-3">Networking & Sytems</h3>
+                            <h4 class="h6 text-muted"><span><i class="fas fa-fw fa-network-wired 2x"></i> </span>
+                                Appliances Configuration and Security hardening (Router, Switch, ...)</h4>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated "
                                     role="progressbar" style="width: 70%">70 %</div>
                             </div>
-                            <h4 class="h6 text-muted"><span><i class="fas fa-route"></i> </span> Routage</h4>
+                            <h4 class="h6 text-muted"><span><i class="fas fa-route"></i> </span> Routing</h4>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated "
-                                    role="progressbar" style="width: 70%">65 %</div>
+                                    role="progressbar" style="width: 60%">60 %</div>
+                            </div>
+                            <h4 class="h6 text-muted"><span><i class="fas fa-server"></i> </span> Server Configuration
+                            </h4>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated "
+                                    role="progressbar" style="width: 50%">50 %</div>
                             </div>
                         </div>
                         <hr>
                         <div class="mb-3">
-                            <h3 class="h4 mb-3">Base de Données</h3>
-                            <h4 class="h6 text-muted"><span><span class="iconify-inline" data-icon="simple-icons:mongodb"></span>&nbsp; </span> MongoDB</h4>
+                            <h3 class="h4 mb-3">Databases</h3>
+                            <h4 class="h6 text-muted"><span><span class="iconify-inline"
+                                        data-icon="simple-icons:mongodb"></span>&nbsp; </span> MongoDB</h4>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-secondary progress-bar-striped  progress-bar-animated"
                                     role="progressbar" style="width: 55%">55 %</div>
@@ -711,12 +789,14 @@
                                 <div class="progress-bar bg-secondary progress-bar-striped  progress-bar-animated"
                                     role="progressbar" style="width: 70%">70 %</div>
                             </div>
-                            <h4 class="h6 text-muted"><span><span class="iconify-inline" data-icon="cib:firebase"></span>&nbsp; </span> Firebase</h4>
+                            <h4 class="h6 text-muted"><span><span class="iconify-inline"
+                                        data-icon="cib:firebase"></span>&nbsp; </span> Firebase</h4>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-secondary progress-bar-striped  progress-bar-animated"
                                     role="progressbar" style="width: 55%">55 %</div>
                             </div>
-                            <h4 class="h6 text-muted"><span><span class="iconify-inline" data-icon="cib:oracle"></span>&nbsp; </span> Oracle</h4>
+                            <h4 class="h6 text-muted"><span><span class="iconify-inline"
+                                        data-icon="cib:oracle"></span>&nbsp; </span> Oracle</h4>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-secondary progress-bar-striped  progress-bar-animated"
                                     role="progressbar" style="width: 30%">30 %</div>
@@ -741,7 +821,7 @@
             </div>
         </div>
     </div>
-    <script src="../../JavaScript/study/Jquery/jquery-3.4.1.js"></script>
+    <script src="/js/main.js"></script>
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
 </body>
 
